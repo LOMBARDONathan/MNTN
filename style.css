@@ -53,7 +53,10 @@ gap:12px;
 }
 
 .bg-blue {
-    background-color: aqua;
+    background-color: rgb(0, 21, 255);
+}
+.bg-green {
+    background-color: green;
 }
 
 .txt-decoration {
@@ -83,6 +86,8 @@ gap:12px;
 }
 .section-hero {
   background-image: url(asset/banniere3.png);
+  height: 100vh;
+  background-position: center ;
 }
 
 .position-1 {
@@ -104,3 +109,43 @@ gap:12px;
 .position-static {
     position: static;
 }
+
+.container-800 {
+}
+
+.line {
+    height: 2px;
+    background-color: #FBD784;
+}
+
+.couleurbeige {
+    color: #FBD784;
+}
+
+.txt-decoration {
+    text-decoration: none;
+}
+ 
+.absolute {
+    position: fixed;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+header {
+    width: 100%;
+}
+
+.margin-left {
+    margin-left: 45px;
+}
+
+.margin-left2 {
+    margin-left: 15px;
+}
+
+.police {
+}
+

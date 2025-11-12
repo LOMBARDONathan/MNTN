@@ -16,55 +16,75 @@
 <body>
     <!-- on va aligner nos trois blocs, il nous faut 1 parent et 3 enfants -->
     <!-- header est le parent -->
-    <header class="flex space-between section-hero">
+    <header class="flex space-between absolute">
 
         <!-- notre premier enfant -->
-        <a href="index.html" class="w-22">MNTN</a>
+        <a href="index.html" class="w-22 txt-decoration txt-white margin-left">MNTN</a>
 
         <!-- deuxième enfant -->
         <nav class="w-22">
-            <ul class="flex space-between">
-                <li class="pointenmoins"><a class="txt-decoration" href="" class="w-10">Equipement</a></li>
-                <li class="pointenmoins"><a class="txt-decoration" href="" class="w-10">About Us</a></li>
-                <li class="pointenmoins"><a class="txt-decoration" href="" class="w-10">Blog</a></li>
+            <ul class="flex space-around">
+                <li class="pointenmoins"><a class="txt-decoration txt-white" href="" class="w-10">Equipement</a></li>
+                <li class="pointenmoins"><a class="txt-decoration txt-white" href="" class="w-10">About Us</a></li>
+                <li class="pointenmoins"><a class="txt-decoration txt-white" href="" class="w-10">Blog</a></li>
             </ul>
         </nav>
         <!-- troisième enfant -->
 
-        <nav class="w-22 ">
-            <ul class="flex">
-                <li class="pointenmoins"><a class="txt-decoration" href=""><i class="ph ph-instagram-logo"></i></a></li>
-                <li class="pointenmoins"><a class="txt-decoration" href=""><i class="ph ph-twitter-logo"></i></a></li>
+        <nav class="w-10">
+            <ul class="flex margin-left2">
+                <li class="pointenmoins"><a class="txt-decoration txt-white margin-left2" href=""><i
+                            class="ph ph-instagram-logo"></i></a></li>
+                <li class="pointenmoins"><a class="txt-decoration txt-white margin-left2" href=""><i
+                            class="ph ph-twitter-logo"></i></a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
+        <!-- parent -->
+        <section class=" flex section-hero justify-center">
             <!-- première partie -->
-            <div class="flex">
-                <div>
-                    <h2> A Hiking Ride</h2>
-                    <div></div>
+
+             <!-- 1er enfant -->
+            <div class=" w-22 bg-red">
+
+                <div class="space-between">
+                    <h2 class="couleurbeige"> A Hiking guide</h2>
+                    <div class="line"></div>
                 </div>
-            </div>
-            <!-- deuxième partie -->
-            <h1>Be Prepared For The Mountains And Beyond!</h1>
+            
+            <h1 class="">Be Prepared For The Mountains And Beyond!</h1>
             <a href="">scroll down ↓</a>
+            </div>
+
             <!-- troisième partie -->
 
-            <nav>
+             <!-- deuxième enfant -->
+            <nav class="w-22 bg-blue">
                 <ul>
-                    <li><a href="">Start</a></li>
-                    <li><a href="">01</a></li>
-                    <li><a href="">02</a></li>
-                    <li><a href="">03</a></li>
+                    <li class="pointenmoins"><a href="">Start</a></li>
+                    <li class="pointenmoins"><a href="">01</a></li>
+                    <li class="pointenmoins"><a href="">02</a></li>
+                    <li class="pointenmoins"><a href="">03</a></li>
                 </ul>
 
             </nav>
-
         </section>
+        
+        <!-- section 01 -->
+         <section>
+            <p></p>
+            <div>
+                <div></div>
+                <h2></h2>
+            </div>
+            <h3></h3>
+            <p></p>
+            <a></a>
 
+            <img src="asset/image1.jpg">
+         </section>
     </main>
 
     <footer>
